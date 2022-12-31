@@ -1,4 +1,3 @@
-wget https://apt.pop-os.org/ubuntu/pool/universe/v/virt-manager/virt-manager_4.0.0-1_all.deb
-wget https://apt.pop-os.org/ubuntu/pool/universe/v/virt-manager/virtinst_4.0.0-1_all.deb
+wget https://apt-origin.pop-os.org/ubuntu/pool/universe/g/gnome-boxes/gnome-boxes_42.0.1-1ubuntu1_amd64.deb
 sudo nala update
-sudo nala install ./virt-manager_4.0.0-1_all.deb ./virtinst_4.0.0-1_all.deb
+sudo nala install ./gnome-boxes_42.0.1-1ubuntu1_amd64.deb
