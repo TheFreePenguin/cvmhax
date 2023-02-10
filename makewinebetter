@@ -1,0 +1,7 @@
+sudo pacman -Rcs wine-mono wine-gecko wine-staging
+git clone --depth=1 https://github.com/Frogging-Family/wine-tkg-git.git
+cd wine-tkg-git
+curl https://raw.githubusercontent.com/NyanCatTW1/robloxWineBuildGuide/main/roblox-wine-staging-v2.5.patch --output roblox-wine-staging-v2.5.patch
+git apply roblox-wine-staging-v2.5.patch
+cd wine-tkg-git
+makepkg -si
